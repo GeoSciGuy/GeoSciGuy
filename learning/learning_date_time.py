@@ -48,3 +48,11 @@ yesterday = today - one_day
 print(today)
 print(yesterday)
 
+# Creating a Date Specific File Name for the NDIC Download
+# Need to create a dynamic string for yesterday. 
+# Will use strftime() and Month, Day, Year (%m, %d , %y)
+yesterday_fn = 'dr' + yesterday.strftime('%m''%d''%y') + '.pdf'
+
+
+
+
