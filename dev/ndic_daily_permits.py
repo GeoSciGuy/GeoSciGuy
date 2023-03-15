@@ -30,7 +30,7 @@ def current_ndic_pdf_dl():
         target_day_fn = 'dr' + target_day.strftime('%m''%d''%y') + '.pdf'
         print(target_day_fn)
         # Create a download destination file
-        pdf_loc = 'C:\Dev_Source\github_repos\GeoSciGuy\pdf'
+        pdf_loc = 'C:\Dev_Source\github_repos\GeoSciGuy\pdf_files'
         pdf_fn = target_day_fn
         pdf_file = os.path.join(pdf_loc,pdf_fn)
         print(pdf_file)
