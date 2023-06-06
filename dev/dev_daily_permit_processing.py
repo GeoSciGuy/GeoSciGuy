@@ -2,6 +2,7 @@
 
 import datetime
 import os
+import requests
 
 
 yesterday = datetime.datetime.now() - datetime.timedelta(days=1)
@@ -18,6 +19,12 @@ dl_path = 'https://www.dmr.nd.gov/oilgas/daily/2023/'
 file_name = 'dr' + yesterday + '.pdf'
 
 dl_file = dl_path + file_name
-
+file_path = '/Users/matthewherring/Documents/GitHub/GeoSciGuy/files'
 print(dl_file)
 
+# up one directory
+os.chdir('..')
+print(os.getcwd())
+# change dirrectory to the file folder
+os.chdir('files')
+print(os.getcwd())
