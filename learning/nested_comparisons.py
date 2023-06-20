@@ -4,7 +4,8 @@ from unittest import result
 
 
 headers = {'a':10 , 'b':20 , 'c':30}
-permits = {'#a1':11 , '#b1':22 , '#c1':33}
+permits = {'#a1':21 , '#b1':22 , '#c1':33}
+approved_permits = {}
 # Lists 
 list_headers = []
 list_permits = []
@@ -38,12 +39,18 @@ for permit in list_permits:
         print("Previous Header Span: " , result_prior_header_span )
         print("Next Header Span is: " , result_later_header_span )
         if result_permit_span < result_later_header_span:
+            approved_permits[list_permits[begin_permit]] = list_headers[begin_header]
+            print(approved_permits)
             print("No Need to continue processing")
             print( "This permits belongs in the category: " ,list_headers[begin_header] )
+            break
         else:
             print("Continuing to process")
+            
+            
     else: 
         print( 'The permit is not in the dictionary')
+        
     print('+++++++++++++++++++++++++++++++++++++++')
     begin_permit = begin_permit + 1
     print('Increment Index + 1 ' , begin_permit)
