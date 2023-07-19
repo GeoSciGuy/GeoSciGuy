@@ -30,6 +30,7 @@ for permit in list_permits:
     print('Begin Permit index: ' , begin_permit)
     print('Permit ' , begin_permit , ' is ' , list_permits[begin_permit])
     print((list_permits[begin_permit]) in permits)
+    
     if (list_permits[begin_permit]) in permits:
         print( " The permit is in the Dictionary")
         result_permit_span = permits.get(list_permits[begin_permit])
