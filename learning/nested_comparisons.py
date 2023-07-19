@@ -17,7 +17,7 @@ print(list_headers)
 for key in permits:
     list_permits.append(key)
 print(list_permits)
-
+  
 total_headers = len(list_headers)
 total_permits = len(list_permits)
 begin_header = 0
@@ -32,7 +32,6 @@ for permit in list_permits:
     print((list_permits[begin_permit]) in permits)
     
     if (list_permits[begin_permit]) in permits:
-        print( " The permit is in the Dictionary")
         result_permit_span = permits.get(list_permits[begin_permit])
         print(result_permit_span)
         result_prior_header_span = headers.get(list_headers[begin_header])
@@ -44,17 +43,9 @@ for permit in list_permits:
             print(approved_permits)
             print("No Need to continue processing")
             print( "This permits belongs in the category: " ,list_headers[begin_header] )
-            break
-        else:
+        elif result_permit_span > result_prior_header_span:
             print("Continuing to process")
-            
-            
-    else: 
-        print( 'The permit is not in the dictionary')
-        
+
     print('+++++++++++++++++++++++++++++++++++++++')
-    begin_permit = begin_permit + 1
     print('Increment Index + 1 ' , begin_permit)
     print('||||||||||||||||||||||||||||||||||||||||')
-
-    
