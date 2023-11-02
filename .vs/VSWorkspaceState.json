@@ -1,6 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\dev",
+    "\\dev\\Projects"
   ],
+  "SelectedNode": "\\dev\\Projects\\ndic_daily_data_getter.py",
   "PreviewInSolutionExplorer": false
 }
