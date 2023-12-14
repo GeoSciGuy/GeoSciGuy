@@ -9,11 +9,7 @@ import os
 import sys
 import traceback
 # Setup Enviroment
-# Import things
-import arcpy
-import os
-import sys
-import traceback
+
 
 # Set Env Variables for ArcPy
 arcpy.env.overwriteOutput = True
