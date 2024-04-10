@@ -1,0 +1,475 @@
+{
+  "type" : "CIMLayerDocument",
+  "version" : "2.6.0",
+  "build" : 24783,
+  "layers" : [
+    "CIMPATH=data_sources/mherrin_land_aor2.xml"
+  ],
+  "layerDefinitions" : [
+    {
+      "type" : "CIMFeatureLayer",
+      "name" : "bakken_aor",
+      "uRI" : "CIMPATH=data_sources/mherrin_land_aor2.xml",
+      "sourceModifiedTime" : {
+        "type" : "TimeInstant",
+        "start" : 978307200000
+      },
+      "metadataURI" : "CIMPATH=Metadata/830a58a6692a6401d45e1cdeae4b98a9.xml",
+      "useSourceMetadata" : true,
+      "description" : "MHERRIN.LAND_AOR",
+      "layerElevation" : {
+        "type" : "CIMLayerElevationSurface",
+        "mapElevationID" : "{E0592200-2A7E-4F89-AFB8-3DA60BFCC5CE}"
+      },
+      "expanded" : true,
+      "layerType" : "Operational",
+      "showLegends" : true,
+      "visibility" : true,
+      "displayCacheType" : "Permanent",
+      "maxDisplayCacheAge" : 5,
+      "showPopups" : true,
+      "serviceLayerID" : -1,
+      "refreshRate" : -1,
+      "refreshRateUnit" : "esriTimeUnitsSeconds",
+      "autoGenerateFeatureTemplates" : true,
+      "featureElevationExpression" : "0",
+      "featureTable" : {
+        "type" : "CIMFeatureTable",
+        "definitionExpression" : "MANAGER = 'BRENDEN C KEYES'",
+        "definitionExpressionName" : "Query 1",
+        "definitionFilterChoices" : [
+          {
+            "type" : "CIMDefinitionFilter",
+            "name" : "Query 1",
+            "definitionExpression" : "MANAGER = 'BRENDEN C KEYES'"
+          }
+        ],
+        "displayField" : "NAME",
+        "editable" : true,
+        "dataConnection" : {
+          "type" : "CIMSqlQueryDataConnection",
+          "workspaceConnectionString" : "SERVER=sde;INSTANCE=sde:oracle$sde:oracle11g:osde48p3;VERSION=SDE.DEFAULT;AUTHENTICATION_MODE=OSA\\\\conoco.net\\ho_shared\\L48 GIS Secure\\Land\\mherring\\automation\\python\\aor\\aor_sj_sections\\layersSERVER=sde;INSTANCE=sde:oracle$sde:oracle11g:osde48p3;VERSION=SDE.DEFAULT;AUTHENTICATION_MODE=OSA",
+          "workspaceFactory" : "SDE",
+          "dataset" : "%LAND_AOR",
+          "datasetType" : "esriDTFeatureClass",
+          "sqlQuery" : "select OBJECTID,GEODB_OID,USER_ID,NAME,E_CALENDAR,PHYSICALDELIVERYOFFICENAME,MAIL,TELEPHONENUMBER,DIVISION,TITLE,MANAGER,DEPARTMENT,SAPCOSTCENTER,SUPERVISOR_ID,SDE_UPDATE,SHAPE from L48.LAND_AOR",
+          "srid" : "4267",
+          "spatialReference" : {
+            "wkid" : 4267,
+            "latestWkid" : 4267
+          },
+          "oIDFields" : "OBJECTID",
+          "geometryType" : "esriGeometryPolygon",
+          "extent" : {
+            "xmin" : -124.750433332999989,
+            "ymin" : 23.8228960650000658,
+            "xmax" : -68.3308598890462235,
+            "ymax" : 49.3844679160000624,
+            "spatialReference" : {
+              "wkid" : 4267,
+              "latestWkid" : 4267
+            }
+          },
+          "queryFields" : [
+            {
+              "name" : "OBJECTID",
+              "type" : "esriFieldTypeInteger",
+              "alias" : "OBJECTID"
+            },
+            {
+              "name" : "GEODB_OID",
+              "type" : "esriFieldTypeString",
+              "alias" : "GEODB_OID",
+              "length" : 20
+            },
+            {
+              "name" : "USER_ID",
+              "type" : "esriFieldTypeString",
+              "alias" : "USER_ID",
+              "length" : 10
+            },
+            {
+              "name" : "NAME",
+              "type" : "esriFieldTypeString",
+              "alias" : "NAME",
+              "length" : 50
+            },
+            {
+              "name" : "E_CALENDAR",
+              "type" : "esriFieldTypeString",
+              "alias" : "E_CALENDAR",
+              "length" : 5
+            },
+            {
+              "name" : "PHYSICALDELIVERYOFFICENAME",
+              "type" : "esriFieldTypeString",
+              "alias" : "PHYSICALDELIVERYOFFICENAME",
+              "length" : 50
+            },
+            {
+              "name" : "MAIL",
+              "type" : "esriFieldTypeString",
+              "alias" : "MAIL",
+              "length" : 100
+            },
+            {
+              "name" : "TELEPHONENUMBER",
+              "type" : "esriFieldTypeString",
+              "alias" : "TELEPHONENUMBER",
+              "length" : 15
+            },
+            {
+              "name" : "DIVISION",
+              "type" : "esriFieldTypeString",
+              "alias" : "DIVISION",
+              "length" : 50
+            },
+            {
+              "name" : "TITLE",
+              "type" : "esriFieldTypeString",
+              "alias" : "TITLE",
+              "length" : 50
+            },
+            {
+              "name" : "MANAGER",
+              "type" : "esriFieldTypeString",
+              "alias" : "MANAGER",
+              "length" : 50
+            },
+            {
+              "name" : "DEPARTMENT",
+              "type" : "esriFieldTypeString",
+              "alias" : "DEPARTMENT",
+              "length" : 50
+            },
+            {
+              "name" : "SAPCOSTCENTER",
+              "type" : "esriFieldTypeString",
+              "alias" : "SAPCOSTCENTER",
+              "length" : 20
+            },
+            {
+              "name" : "SUPERVISOR_ID",
+              "type" : "esriFieldTypeString",
+              "alias" : "SUPERVISOR_ID",
+              "length" : 20
+            },
+            {
+              "name" : "SDE_UPDATE",
+              "type" : "esriFieldTypeString",
+              "alias" : "SDE_UPDATE",
+              "length" : 20
+            },
+            {
+              "name" : "SHAPE",
+              "type" : "esriFieldTypeGeometry",
+              "alias" : "SHAPE",
+              "geometryDef" : {
+                "avgNumPoints" : 0,
+                "geometryType" : "esriGeometryPolygon",
+                "hasM" : false,
+                "hasZ" : false,
+                "spatialReference" : {
+                  "wkid" : 4267,
+                  "latestWkid" : 4267
+                }
+              }
+            }
+          ],
+          "spatialStorageType" : 3
+        },
+        "studyAreaSpatialRel" : "esriSpatialRelUndefined",
+        "searchOrder" : "esriSearchOrderSpatial"
+      },
+      "htmlPopupEnabled" : true,
+      "selectable" : true,
+      "featureCacheType" : "Session",
+      "displayFiltersType" : "ByScale",
+      "labelClasses" : [
+        {
+          "type" : "CIMLabelClass",
+          "expression" : "$feature.NAME",
+          "expressionEngine" : "Arcade",
+          "featuresToLabel" : "AllVisibleFeatures",
+          "maplexLabelPlacementProperties" : {
+            "type" : "CIMMaplexLabelPlacementProperties",
+            "featureType" : "Polygon",
+            "avoidPolygonHoles" : true,
+            "canOverrunFeature" : true,
+            "canPlaceLabelOutsidePolygon" : true,
+            "canRemoveOverlappingLabel" : true,
+            "canStackLabel" : true,
+            "connectionType" : "Unambiguous",
+            "constrainOffset" : "NoConstraint",
+            "contourAlignmentType" : "Page",
+            "contourLadderType" : "Straight",
+            "contourMaximumAngle" : 90,
+            "enableConnection" : true,
+            "featureWeight" : 0,
+            "fontHeightReductionLimit" : 4,
+            "fontHeightReductionStep" : 0.5,
+            "fontWidthReductionLimit" : 90,
+            "fontWidthReductionStep" : 5,
+            "graticuleAlignmentType" : "Straight",
+            "keyNumberGroupName" : "Default",
+            "labelBuffer" : 15,
+            "labelLargestPolygon" : true,
+            "labelPriority" : -1,
+            "labelStackingProperties" : {
+              "type" : "CIMMaplexLabelStackingProperties",
+              "stackAlignment" : "ChooseBest",
+              "maximumNumberOfLines" : 3,
+              "minimumNumberOfCharsPerLine" : 3,
+              "maximumNumberOfCharsPerLine" : 24,
+              "separators" : [
+                {
+                  "type" : "CIMMaplexStackingSeparator",
+                  "separator" : " ",
+                  "splitAfter" : true
+                },
+                {
+                  "type" : "CIMMaplexStackingSeparator",
+                  "separator" : ",",
+                  "visible" : true,
+                  "splitAfter" : true
+                }
+              ]
+            },
+            "lineFeatureType" : "General",
+            "linePlacementMethod" : "OffsetCurvedFromLine",
+            "maximumLabelOverrun" : 80,
+            "maximumLabelOverrunUnit" : "Point",
+            "minimumFeatureSizeUnit" : "Map",
+            "multiPartOption" : "OneLabelPerPart",
+            "offsetAlongLineProperties" : {
+              "type" : "CIMMaplexOffsetAlongLineProperties",
+              "placementMethod" : "BestPositionAlongLine",
+              "labelAnchorPoint" : "CenterOfLabel",
+              "distanceUnit" : "Percentage",
+              "useLineDirection" : true
+            },
+            "pointExternalZonePriorities" : {
+              "type" : "CIMMaplexExternalZonePriorities",
+              "aboveLeft" : 4,
+              "aboveCenter" : 2,
+              "aboveRight" : 1,
+              "centerRight" : 3,
+              "belowRight" : 5,
+              "belowCenter" : 7,
+              "belowLeft" : 8,
+              "centerLeft" : 6
+            },
+            "pointPlacementMethod" : "AroundPoint",
+            "polygonAnchorPointType" : "GeometricCenter",
+            "polygonBoundaryWeight" : 0,
+            "polygonExternalZones" : {
+              "type" : "CIMMaplexExternalZonePriorities",
+              "aboveLeft" : 4,
+              "aboveCenter" : 2,
+              "aboveRight" : 1,
+              "centerRight" : 3,
+              "belowRight" : 5,
+              "belowCenter" : 7,
+              "belowLeft" : 8,
+              "centerLeft" : 6
+            },
+            "polygonFeatureType" : "General",
+            "polygonInternalZones" : {
+              "type" : "CIMMaplexInternalZonePriorities",
+              "center" : 1
+            },
+            "polygonPlacementMethod" : "HorizontalInPolygon",
+            "primaryOffset" : 1,
+            "primaryOffsetUnit" : "Point",
+            "removeExtraWhiteSpace" : true,
+            "repetitionIntervalUnit" : "Point",
+            "rotationProperties" : {
+              "type" : "CIMMaplexRotationProperties",
+              "rotationType" : "Arithmetic",
+              "alignmentType" : "Straight"
+            },
+            "secondaryOffset" : 100,
+            "strategyPriorities" : {
+              "type" : "CIMMaplexStrategyPriorities",
+              "stacking" : 1,
+              "overrun" : 2,
+              "fontCompression" : 3,
+              "fontReduction" : 4,
+              "abbreviation" : 5
+            },
+            "thinningDistanceUnit" : "Point",
+            "truncationMarkerCharacter" : ".",
+            "truncationMinimumLength" : 1,
+            "truncationPreferredCharacters" : "aeiou",
+            "truncationExcludedCharacters" : "0123456789"
+          },
+          "name" : "Class 1",
+          "priority" : -1,
+          "standardLabelPlacementProperties" : {
+            "type" : "CIMStandardLabelPlacementProperties",
+            "featureType" : "Line",
+            "featureWeight" : "Low",
+            "labelWeight" : "High",
+            "numLabelsOption" : "OneLabelPerName",
+            "lineLabelPosition" : {
+              "type" : "CIMStandardLineLabelPosition",
+              "above" : true,
+              "inLine" : true,
+              "parallel" : true
+            },
+            "lineLabelPriorities" : {
+              "type" : "CIMStandardLineLabelPriorities",
+              "aboveStart" : 3,
+              "aboveAlong" : 3,
+              "aboveEnd" : 3,
+              "centerStart" : 3,
+              "centerAlong" : 3,
+              "centerEnd" : 3,
+              "belowStart" : 3,
+              "belowAlong" : 3,
+              "belowEnd" : 3
+            },
+            "pointPlacementMethod" : "AroundPoint",
+            "pointPlacementPriorities" : {
+              "type" : "CIMStandardPointPlacementPriorities",
+              "aboveLeft" : 2,
+              "aboveCenter" : 2,
+              "aboveRight" : 1,
+              "centerLeft" : 3,
+              "centerRight" : 2,
+              "belowLeft" : 3,
+              "belowCenter" : 3,
+              "belowRight" : 2
+            },
+            "rotationType" : "Arithmetic",
+            "polygonPlacementMethod" : "AlwaysHorizontal"
+          },
+          "textSymbol" : {
+            "type" : "CIMSymbolReference",
+            "symbol" : {
+              "type" : "CIMTextSymbol",
+              "blockProgression" : "TTB",
+              "depth3D" : 1,
+              "extrapolateBaselines" : true,
+              "fontEffects" : "Normal",
+              "fontEncoding" : "Unicode",
+              "fontFamilyName" : "Tahoma",
+              "fontStyleName" : "Regular",
+              "fontType" : "Unspecified",
+              "haloSize" : 1,
+              "height" : 10,
+              "hinting" : "Default",
+              "horizontalAlignment" : "Left",
+              "kerning" : true,
+              "letterWidth" : 100,
+              "ligatures" : true,
+              "lineGapType" : "ExtraLeading",
+              "symbol" : {
+                "type" : "CIMPolygonSymbol",
+                "symbolLayers" : [
+                  {
+                    "type" : "CIMSolidFill",
+                    "enable" : true,
+                    "color" : {
+                      "type" : "CIMRGBColor",
+                      "values" : [
+                        0,
+                        0,
+                        0,
+                        100
+                      ]
+                    }
+                  }
+                ]
+              },
+              "textCase" : "Normal",
+              "textDirection" : "LTR",
+              "verticalAlignment" : "Bottom",
+              "verticalGlyphOrientation" : "Right",
+              "wordSpacing" : 100,
+              "billboardMode3D" : "FaceNearPlane"
+            }
+          },
+          "useCodedValue" : true,
+          "visibility" : true,
+          "iD" : -1
+        }
+      ],
+      "renderer" : {
+        "type" : "CIMSimpleRenderer",
+        "patch" : "Default",
+        "symbol" : {
+          "type" : "CIMSymbolReference",
+          "symbol" : {
+            "type" : "CIMPolygonSymbol",
+            "symbolLayers" : [
+              {
+                "type" : "CIMSolidStroke",
+                "enable" : true,
+                "capStyle" : "Round",
+                "joinStyle" : "Round",
+                "lineStyle3D" : "Strip",
+                "miterLimit" : 10,
+                "width" : 0.69999999999999996,
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    110,
+                    110,
+                    110,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMSolidFill",
+                "enable" : true,
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    247.81999999999999,
+                    196.91,
+                    252.44999999999999,
+                    100
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      },
+      "scaleSymbols" : true,
+      "snappable" : true
+    }
+  ],
+  "binaryReferences" : [
+    {
+      "type" : "CIMBinaryReference",
+      "uRI" : "CIMPATH=Metadata/830a58a6692a6401d45e1cdeae4b98a9.xml",
+      "data" : "<?xml version=\"1.0\"?>\r\n<metadata xml:lang=\"en\"><Esri><CreaDate>20230508</CreaDate><CreaTime>15572300</CreaTime><ArcGISFormat>1.0</ArcGISFormat><SyncOnce>TRUE</SyncOnce></Esri></metadata>\r\n"
+    }
+  ],
+  "elevationSurfaces" : [
+    {
+      "type" : "CIMMapElevationSurface",
+      "elevationMode" : "BaseGlobeSurface",
+      "name" : "Ground",
+      "verticalExaggeration" : 1,
+      "mapElevationID" : "{E0592200-2A7E-4F89-AFB8-3DA60BFCC5CE}",
+      "color" : {
+        "type" : "CIMRGBColor",
+        "values" : [
+          255,
+          255,
+          255,
+          100
+        ]
+      },
+      "surfaceTINShadingMode" : "Smooth",
+      "visibility" : true,
+      "expanded" : true
+    }
+  ],
+  "rGBColorProfile" : "sRGB IEC61966-2-1 noBPC",
+  "cMYKColorProfile" : "U.S. Web Coated (SWOP) v2"
+}

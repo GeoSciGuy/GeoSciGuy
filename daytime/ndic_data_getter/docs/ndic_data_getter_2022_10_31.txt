@@ -1,0 +1,129 @@
+Beginning processing for  OGD_CasesDocketed
+OGD_CasesDocketed successfully read from website, beginning zipfile creation
+OGD_CasesDocketed successfully extracted to directory and zip gracefully closed, beginning fc creation
+OGD_CasesDocketed Successfully merged into GeoDB, now deleting the shapes
+OGD_CasesDocketed Shape was Successfully Deleted, moving on to the next NDIC Dataset
+
+Beginning processing for  OGD_Directionals
+OGD_Directionals successfully read from website, beginning zipfile creation
+OGD_Directionals successfully extracted to directory and zip gracefully closed, beginning fc creation
+OGD_Directionals Successfully merged into GeoDB, now deleting the shapes
+OGD_Directionals Shape was Successfully Deleted, moving on to the next NDIC Dataset
+
+Beginning processing for  OGD_Directionals_Line
+OGD_Directionals_Line successfully read from website, beginning zipfile creation
+OGD_Directionals_Line successfully extracted to directory and zip gracefully closed, beginning fc creation
+OGD_Directionals_Line Successfully merged into GeoDB, now deleting the shapes
+OGD_Directionals_Line Shape was Successfully Deleted, moving on to the next NDIC Dataset
+
+Beginning processing for  OGD_DrillingSpacingUnits
+OGD_DrillingSpacingUnits successfully read from website, beginning zipfile creation
+OGD_DrillingSpacingUnits successfully extracted to directory and zip gracefully closed, beginning fc creation
+OGD_DrillingSpacingUnits Successfully merged into GeoDB, now deleting the shapes
+OGD_DrillingSpacingUnits Shape was Successfully Deleted, moving on to the next NDIC Dataset
+
+Beginning processing for  OGD_GasPlants
+OGD_GasPlants successfully read from website, beginning zipfile creation
+OGD_GasPlants successfully extracted to directory and zip gracefully closed, beginning fc creation
+OGD_GasPlants Successfully merged into GeoDB, now deleting the shapes
+OGD_GasPlants Shape was Successfully Deleted, moving on to the next NDIC Dataset
+
+Beginning processing for  OGD_Horizontals
+OGD_Horizontals successfully read from website, beginning zipfile creation
+OGD_Horizontals successfully extracted to directory and zip gracefully closed, beginning fc creation
+OGD_Horizontals Successfully merged into GeoDB, now deleting the shapes
+OGD_Horizontals Shape was Successfully Deleted, moving on to the next NDIC Dataset
+
+Beginning processing for  OGD_Horizontals_Line
+OGD_Horizontals_Line successfully read from website, beginning zipfile creation
+OGD_Horizontals_Line successfully extracted to directory and zip gracefully closed, beginning fc creation
+OGD_Horizontals_Line Successfully merged into GeoDB, now deleting the shapes
+OGD_Horizontals_Line Shape was Successfully Deleted, moving on to the next NDIC Dataset
+
+Beginning processing for  OGD_InspectorAreas
+OGD_InspectorAreas successfully read from website, beginning zipfile creation
+OGD_InspectorAreas successfully extracted to directory and zip gracefully closed, beginning fc creation
+OGD_InspectorAreas Successfully merged into GeoDB, now deleting the shapes
+OGD_InspectorAreas Shape was Successfully Deleted, moving on to the next NDIC Dataset
+
+Beginning processing for  OGD_OilFields
+OGD_OilFields successfully read from website, beginning zipfile creation
+OGD_OilFields successfully extracted to directory and zip gracefully closed, beginning fc creation
+OGD_OilFields Successfully merged into GeoDB, now deleting the shapes
+OGD_OilFields Shape was Successfully Deleted, moving on to the next NDIC Dataset
+
+Beginning processing for  OGD_PermitStatusBeforeSpud
+OGD_PermitStatusBeforeSpud successfully read from website, beginning zipfile creation
+OGD_PermitStatusBeforeSpud successfully extracted to directory and zip gracefully closed, beginning fc creation
+OGD_PermitStatusBeforeSpud Successfully merged into GeoDB, now deleting the shapes
+OGD_PermitStatusBeforeSpud Shape was Successfully Deleted, moving on to the next NDIC Dataset
+
+Beginning processing for  OGD_Rigs
+OGD_Rigs successfully read from website, beginning zipfile creation
+OGD_Rigs successfully extracted to directory and zip gracefully closed, beginning fc creation
+OGD_Rigs Successfully merged into GeoDB, now deleting the shapes
+OGD_Rigs Shape was Successfully Deleted, moving on to the next NDIC Dataset
+
+Beginning processing for  OGD_Seismic2DPreplot
+OGD_Seismic2DPreplot successfully read from website, beginning zipfile creation
+OGD_Seismic2DPreplot successfully extracted to directory and zip gracefully closed, beginning fc creation
+OGD_Seismic2DPreplot Successfully merged into GeoDB, now deleting the shapes
+OGD_Seismic2DPreplot Shape was Successfully Deleted, moving on to the next NDIC Dataset
+
+Beginning processing for  OGD_Seismic3DPreplot
+OGD_Seismic3DPreplot successfully read from website, beginning zipfile creation
+OGD_Seismic3DPreplot successfully extracted to directory and zip gracefully closed, beginning fc creation
+OGD_Seismic3DPreplot Successfully merged into GeoDB, now deleting the shapes
+OGD_Seismic3DPreplot Shape was Successfully Deleted, moving on to the next NDIC Dataset
+
+Beginning processing for  OGD_UnitBoundaries
+OGD_UnitBoundaries successfully read from website, beginning zipfile creation
+OGD_UnitBoundaries successfully extracted to directory and zip gracefully closed, beginning fc creation
+OGD_UnitBoundaries Successfully merged into GeoDB, now deleting the shapes
+OGD_UnitBoundaries Shape was Successfully Deleted, moving on to the next NDIC Dataset
+
+Beginning processing for  OGD_Wells
+OGD_Wells successfully read from website, beginning zipfile creation
+OGD_Wells successfully extracted to directory and zip gracefully closed, beginning fc creation
+OGD_Wells Successfully merged into GeoDB, now deleting the shapes
+OGD_Wells Shape was Successfully Deleted, moving on to the next NDIC Dataset
+
+Beginning processing for  Reservations
+Reservations successfully read from website, beginning zipfile creation
+Reservations successfully extracted to directory and zip gracefully closed, beginning fc creation
+Reservations Successfully merged into GeoDB, now deleting the shapes
+Reservations Shape was Successfully Deleted, moving on to the next NDIC Dataset
+
+OGD_CasesDocketed.zip is about to be deleted
+OGD_CasesDocketed- zip has been deleted
+OGD_Directionals.zip is about to be deleted
+OGD_Directionals- zip has been deleted
+OGD_Directionals_Line.zip is about to be deleted
+OGD_Directionals_Line- zip has been deleted
+OGD_DrillingSpacingUnits.zip is about to be deleted
+OGD_DrillingSpacingUnits- zip has been deleted
+OGD_GasPlants.zip is about to be deleted
+OGD_GasPlants- zip has been deleted
+OGD_Horizontals.zip is about to be deleted
+OGD_Horizontals- zip has been deleted
+OGD_Horizontals_Line.zip is about to be deleted
+OGD_Horizontals_Line- zip has been deleted
+OGD_InspectorAreas.zip is about to be deleted
+OGD_InspectorAreas- zip has been deleted
+OGD_OilFields.zip is about to be deleted
+OGD_OilFields- zip has been deleted
+OGD_PermitStatusBeforeSpud.zip is about to be deleted
+OGD_PermitStatusBeforeSpud- zip has been deleted
+OGD_Rigs.zip is about to be deleted
+OGD_Rigs- zip has been deleted
+OGD_Seismic2DPreplot.zip is about to be deleted
+OGD_Seismic2DPreplot- zip has been deleted
+OGD_Seismic3DPreplot.zip is about to be deleted
+OGD_Seismic3DPreplot- zip has been deleted
+OGD_UnitBoundaries.zip is about to be deleted
+OGD_UnitBoundaries- zip has been deleted
+OGD_Wells.zip is about to be deleted
+OGD_Wells- zip has been deleted
+Reservations.zip is about to be deleted
+Reservations- zip has been deleted
+mherrin- Main Execution is complete

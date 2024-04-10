@@ -1,0 +1,129 @@
+06/20/2023 01:59:03 PM Is when the NDIC Data Getter process event Started
+06/20/2023 01:59:32 PM MissouriRiver Successfully merged into GeoDB, now deleting the shapes
+06/20/2023 01:59:33 PM MissouriRiver Shape was Successfully Deleted, moving on to the next NDIC Dataset
+06/20/2023 01:59:58 PM MajorRivers Successfully merged into GeoDB, now deleting the shapes
+06/20/2023 01:59:59 PM MajorRivers Shape was Successfully Deleted, moving on to the next NDIC Dataset
+06/20/2023 02:00:32 PM OGD_CasesDocketed Successfully merged into GeoDB, now deleting the shapes
+06/20/2023 02:00:32 PM OGD_CasesDocketed Shape was Successfully Deleted, moving on to the next NDIC Dataset
+06/20/2023 02:01:04 PM OGD_Directionals Successfully merged into GeoDB, now deleting the shapes
+06/20/2023 02:01:05 PM OGD_Directionals Shape was Successfully Deleted, moving on to the next NDIC Dataset
+06/20/2023 02:01:31 PM OGD_Directionals_Line Successfully merged into GeoDB, now deleting the shapes
+06/20/2023 02:01:32 PM OGD_Directionals_Line Shape was Successfully Deleted, moving on to the next NDIC Dataset
+06/20/2023 02:02:00 PM OGD_DrillingSpacingUnits Successfully merged into GeoDB, now deleting the shapes
+06/20/2023 02:02:00 PM OGD_DrillingSpacingUnits Shape was Successfully Deleted, moving on to the next NDIC Dataset
+06/20/2023 02:02:26 PM OGD_GasPlants Successfully merged into GeoDB, now deleting the shapes
+06/20/2023 02:02:27 PM OGD_GasPlants Shape was Successfully Deleted, moving on to the next NDIC Dataset
+06/20/2023 02:11:37 PM OGD_Horizontals Successfully merged into GeoDB, now deleting the shapes
+06/20/2023 02:11:38 PM OGD_Horizontals Shape was Successfully Deleted, moving on to the next NDIC Dataset
+06/20/2023 02:12:08 PM OGD_Horizontals_Line Successfully merged into GeoDB, now deleting the shapes
+06/20/2023 02:12:09 PM OGD_Horizontals_Line Shape was Successfully Deleted, moving on to the next NDIC Dataset
+06/20/2023 02:12:33 PM OGD_InspectorAreas Successfully merged into GeoDB, now deleting the shapes
+06/20/2023 02:12:34 PM OGD_InspectorAreas Shape was Successfully Deleted, moving on to the next NDIC Dataset
+06/20/2023 02:12:57 PM OGD_OilFields Successfully merged into GeoDB, now deleting the shapes
+06/20/2023 02:12:58 PM OGD_OilFields Shape was Successfully Deleted, moving on to the next NDIC Dataset
+06/20/2023 02:13:21 PM OGD_PermitStatusBeforeSpud Successfully merged into GeoDB, now deleting the shapes
+06/20/2023 02:13:22 PM OGD_PermitStatusBeforeSpud Shape was Successfully Deleted, moving on to the next NDIC Dataset
+06/20/2023 02:13:45 PM OGD_Rigs Successfully merged into GeoDB, now deleting the shapes
+06/20/2023 02:13:46 PM OGD_Rigs Shape was Successfully Deleted, moving on to the next NDIC Dataset
+06/20/2023 02:14:08 PM OGD_Seismic2DPreplot Successfully merged into GeoDB, now deleting the shapes
+06/20/2023 02:14:09 PM OGD_Seismic2DPreplot Shape was Successfully Deleted, moving on to the next NDIC Dataset
+06/20/2023 02:14:32 PM OGD_Seismic3DPreplot Successfully merged into GeoDB, now deleting the shapes
+06/20/2023 02:14:33 PM OGD_Seismic3DPreplot Shape was Successfully Deleted, moving on to the next NDIC Dataset
+06/20/2023 02:14:55 PM OGD_UnitBoundaries Successfully merged into GeoDB, now deleting the shapes
+06/20/2023 02:14:56 PM OGD_UnitBoundaries Shape was Successfully Deleted, moving on to the next NDIC Dataset
+06/20/2023 02:15:25 PM OGD_Wells Successfully merged into GeoDB, now deleting the shapes
+06/20/2023 02:15:26 PM OGD_Wells Shape was Successfully Deleted, moving on to the next NDIC Dataset
+06/20/2023 02:15:49 PM Reservations Successfully merged into GeoDB, now deleting the shapes
+06/20/2023 02:15:50 PM Reservations Shape was Successfully Deleted, moving on to the next NDIC Dataset
+06/20/2023 02:15:50 PM MissouriRiverzip is about to be deleted.
+06/20/2023 02:15:50 PM MissouriRiverzip has been deleted. 
+06/20/2023 02:15:50 PM MajorRiverszip is about to be deleted.
+06/20/2023 02:15:50 PM MajorRiverszip has been deleted. 
+06/20/2023 02:15:50 PM OGD_CasesDocketedzip is about to be deleted.
+06/20/2023 02:15:50 PM OGD_CasesDocketedzip has been deleted. 
+06/20/2023 02:15:50 PM OGD_Directionalszip is about to be deleted.
+06/20/2023 02:15:50 PM OGD_Directionalszip has been deleted. 
+06/20/2023 02:15:50 PM OGD_Directionals_Linezip is about to be deleted.
+06/20/2023 02:15:50 PM OGD_Directionals_Linezip has been deleted. 
+06/20/2023 02:15:50 PM OGD_DrillingSpacingUnitszip is about to be deleted.
+06/20/2023 02:15:50 PM OGD_DrillingSpacingUnitszip has been deleted. 
+06/20/2023 02:15:50 PM OGD_GasPlantszip is about to be deleted.
+06/20/2023 02:15:50 PM OGD_GasPlantszip has been deleted. 
+06/20/2023 02:15:50 PM OGD_Horizontalszip is about to be deleted.
+06/20/2023 02:15:50 PM OGD_Horizontalszip has been deleted. 
+06/20/2023 02:15:50 PM OGD_Horizontals_Linezip is about to be deleted.
+06/20/2023 02:15:50 PM OGD_Horizontals_Linezip has been deleted. 
+06/20/2023 02:15:50 PM OGD_InspectorAreaszip is about to be deleted.
+06/20/2023 02:15:50 PM OGD_InspectorAreaszip has been deleted. 
+06/20/2023 02:15:50 PM OGD_OilFieldszip is about to be deleted.
+06/20/2023 02:15:50 PM OGD_OilFieldszip has been deleted. 
+06/20/2023 02:15:50 PM OGD_PermitStatusBeforeSpudzip is about to be deleted.
+06/20/2023 02:15:50 PM OGD_PermitStatusBeforeSpudzip has been deleted. 
+06/20/2023 02:15:50 PM OGD_Rigszip is about to be deleted.
+06/20/2023 02:15:50 PM OGD_Rigszip has been deleted. 
+06/20/2023 02:15:50 PM OGD_Seismic2DPreplotzip is about to be deleted.
+06/20/2023 02:15:50 PM OGD_Seismic2DPreplotzip has been deleted. 
+06/20/2023 02:15:50 PM OGD_Seismic3DPreplotzip is about to be deleted.
+06/20/2023 02:15:50 PM OGD_Seismic3DPreplotzip has been deleted. 
+06/20/2023 02:15:50 PM OGD_UnitBoundarieszip is about to be deleted.
+06/20/2023 02:15:50 PM OGD_UnitBoundarieszip has been deleted. 
+06/20/2023 02:15:50 PM OGD_Wellszip is about to be deleted.
+06/20/2023 02:15:50 PM OGD_Wellszip has been deleted. 
+06/20/2023 02:15:50 PM Reservationszip is about to be deleted.
+06/20/2023 02:15:50 PM Reservationszip has been deleted. 
+06/20/2023 02:15:50 PM Finished Execution, All data downloaded. 
+06/21/2023 07:42:41 AM Is when the NDIC Data Getter process event Started
+06/21/2023 07:43:25 AM MissouriRiver Successfully merged into GeoDB, now deleting the shapes
+06/21/2023 07:43:27 AM MissouriRiver Shape was Successfully Deleted, moving on to the next NDIC Dataset
+06/21/2023 07:44:09 AM MajorRivers Successfully merged into GeoDB, now deleting the shapes
+06/21/2023 07:44:11 AM MajorRivers Shape was Successfully Deleted, moving on to the next NDIC Dataset
+06/21/2023 07:44:59 AM OGD_CasesDocketed Successfully merged into GeoDB, now deleting the shapes
+06/21/2023 07:45:01 AM OGD_CasesDocketed Shape was Successfully Deleted, moving on to the next NDIC Dataset
+06/21/2023 07:45:51 AM OGD_Directionals Successfully merged into GeoDB, now deleting the shapes
+06/21/2023 07:45:53 AM OGD_Directionals Shape was Successfully Deleted, moving on to the next NDIC Dataset
+06/27/2023 10:26:22 AM Is when the NDIC Data Getter process event Started
+06/27/2023 10:26:36 AM MissouriRiver Successfully merged into GeoDB, now deleting the shapes
+06/27/2023 10:26:36 AM MissouriRiver Shape was Successfully Deleted, moving on to the next NDIC Dataset
+06/27/2023 10:26:49 AM MajorRivers Successfully merged into GeoDB, now deleting the shapes
+06/27/2023 10:26:49 AM MajorRivers Shape was Successfully Deleted, moving on to the next NDIC Dataset
+06/27/2023 10:30:33 AM MissouriRiverzip is about to be deleted.
+06/27/2023 10:30:33 AM MissouriRiverzip has been deleted. 
+06/27/2023 10:30:33 AM MajorRiverszip is about to be deleted.
+06/27/2023 10:30:33 AM MajorRiverszip has been deleted. 
+06/27/2023 10:30:33 AM OGD_CasesDocketedzip is about to be deleted.
+06/27/2023 10:30:33 AM OGD_CasesDocketedzip has been deleted. 
+06/27/2023 10:30:33 AM OGD_Directionalszip is about to be deleted.
+06/27/2023 10:30:33 AM OGD_Directionalszip has been deleted. 
+06/27/2023 10:30:33 AM OGD_Directionals_Linezip is about to be deleted.
+06/27/2023 10:30:33 AM OGD_Directionals_Linezip has been deleted. 
+06/27/2023 10:30:33 AM OGD_DrillingSpacingUnitszip is about to be deleted.
+06/27/2023 10:30:33 AM OGD_DrillingSpacingUnitszip has been deleted. 
+06/27/2023 10:30:33 AM OGD_GasPlantszip is about to be deleted.
+06/27/2023 10:30:33 AM OGD_GasPlantszip has been deleted. 
+06/27/2023 10:30:33 AM OGD_Horizontalszip is about to be deleted.
+06/27/2023 10:30:33 AM OGD_Horizontalszip has been deleted. 
+06/27/2023 10:30:33 AM OGD_Horizontals_Linezip is about to be deleted.
+06/27/2023 10:30:33 AM OGD_Horizontals_Linezip has been deleted. 
+06/27/2023 10:30:33 AM OGD_InspectorAreaszip is about to be deleted.
+06/27/2023 10:30:33 AM OGD_InspectorAreaszip has been deleted. 
+06/27/2023 10:30:33 AM OGD_OilFieldszip is about to be deleted.
+06/27/2023 10:30:33 AM OGD_OilFieldszip has been deleted. 
+06/27/2023 10:30:33 AM OGD_PermitStatusBeforeSpudzip is about to be deleted.
+06/27/2023 10:30:33 AM OGD_PermitStatusBeforeSpudzip has been deleted. 
+06/27/2023 10:30:33 AM OGD_Rigszip is about to be deleted.
+06/27/2023 10:30:33 AM OGD_Rigszip has been deleted. 
+06/27/2023 10:30:33 AM OGD_Seismic2DPreplotzip is about to be deleted.
+06/27/2023 10:30:33 AM OGD_Seismic2DPreplotzip has been deleted. 
+06/27/2023 10:30:33 AM OGD_Seismic3DPreplotzip is about to be deleted.
+06/27/2023 10:30:33 AM OGD_Seismic3DPreplotzip has been deleted. 
+06/27/2023 10:30:33 AM OGD_UnitBoundarieszip is about to be deleted.
+06/27/2023 10:30:33 AM OGD_UnitBoundarieszip has been deleted. 
+06/27/2023 10:30:33 AM OGD_Wellszip is about to be deleted.
+06/27/2023 10:30:33 AM OGD_Wellszip has been deleted. 
+06/27/2023 10:30:33 AM Reservationszip is about to be deleted.
+06/27/2023 10:30:33 AM Reservationszip has been deleted. 
+06/27/2023 10:30:33 AM Finished Execution, All data downloaded. 
+06/27/2023 10:41:05 AM ******   Is when the NDIC Data Getter process event Started      *********
+06/27/2023 10:41:54 AM ******   Is when the NDIC Data Getter process event Started      *********
+06/27/2023 10:46:01 AM Finished Execution, All data downloaded. 
+07/17/2023 03:24:07 PM ******   Is when the NDIC Data Getter process event Started      *********
