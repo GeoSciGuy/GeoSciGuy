@@ -27,7 +27,11 @@ def txt_file_maker():
 
     pass
 
+# I would like to make an array
+# how do I do it? 
 
+
+my_list = [1, 2, 3, 4, 5]
 # txt_file_maker()
 
 
