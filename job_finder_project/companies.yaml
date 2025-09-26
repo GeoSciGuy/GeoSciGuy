@@ -1,0 +1,40 @@
+# List the companies you want to track.
+# Supported ats_type values: lever, greenhouse, smartrecruiters, workday_json
+# For workday_json, you must provide a full 'base_url' pointing to the JSON search endpoint.
+#
+# title_keywords: any of these (case-insensitive) must appear in the job title. Examples:
+#   - "marketing"
+#   - "social media"
+#   - "content"
+# location_keywords: optional filters that must appear in the location text (e.g., "Remote", "Houston", "USA").
+# exclude_keywords: optional words to exclude (e.g., "senior" if targeting mid-level).
+#
+# Example companies below — replace with your targets.
+companies:
+  - name: exampleco
+    ats_type: lever
+    # Lever uses a company slug (often from the career site URL, e.g., jobs.lever.co/exampleco)
+    # We'll try both api.lever.co and jobs.lever.co public endpoints.
+    title_keywords: ["marketing", "social media", "digital", "content"]
+    location_keywords: ["Remote", "United States", "Texas"]
+    exclude_keywords: ["contract", "intern"]
+
+  - name: sample-inc
+    ats_type: greenhouse
+    # Greenhouse uses a company board slug (e.g., boards.greenhouse.io/sample-inc)
+    title_keywords: ["marketing", "social media"]
+    location_keywords: ["Remote", "United States"]
+
+  - name: brand-hq
+    ats_type: smartrecruiters
+    # SmartRecruiters uses a company slug (see careers page URL, e.g., careers.smartrecruiters.com/brand-hq)
+    title_keywords: ["marketing", "content", "community"]
+    location_keywords: ["Remote", "USA"]
+
+  - name: acme-corp
+    ats_type: workday_json
+    # Workday JSON endpoint example (replace with the actual company's JSON endpoint).
+    # Many Workday boards expose a JSON search endpoint similar to below. You must paste the real URL.
+    base_url: "https://wd5.myworkdayjobs.com/wday/cxs/acme/Acme_Careers/jobs"
+    title_keywords: ["marketing", "social media", "digital"]
+    location_keywords: ["Remote", "United States"]
