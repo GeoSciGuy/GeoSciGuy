@@ -11,7 +11,7 @@
 #
 # Example companies below — replace with your targets.
 companies:
-  - name: exampleco
+  - name:. exampleco
     ats_type: lever
     # Lever uses a company slug (often from the career site URL, e.g., jobs.lever.co/exampleco)
     # We'll try both api.lever.co and jobs.lever.co public endpoints.
@@ -30,6 +30,11 @@ companies:
     # SmartRecruiters uses a company slug (see careers page URL, e.g., careers.smartrecruiters.com/brand-hq)
     title_keywords: ["marketing", "content", "community"]
     location_keywords: ["Remote", "USA"]
+- name: figma
+  ats_type: lever
+  title_keywords: ["marketing", "growth"]
+  location_keywords: ["Remote", "United States"]
+  exclude_keywords: ["intern"]
 
   - name: acme-corp
     ats_type: workday_json
