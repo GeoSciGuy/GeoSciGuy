@@ -2,3 +2,8 @@
 *.pdf
 *.pdf
 *.pdf
+
+# Virtual environment
+
+# Virtual environment
+python314/
