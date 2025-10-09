@@ -18,6 +18,10 @@ import time
 import sys
 import datetime
 import requests
+import pdfplumber
+import re
+from pathlib import Path
+from collections import defaultdict
 
 # Variables Area
 # Workflow Description
@@ -61,6 +65,45 @@ def download_permit_pdf(download_url, local_folder):
         print(f"Failed to download PDF: {e}")
         return None
     
+# Text Parsing Function to extract permit data from PDF
+CATEGORY_LABELS = [
+    "PERMITS APPROVED:",
+    "ADDITIONAL INFORMATION:",
+    "APPROVED FOR CONFIDENTIAL STATUS:",
+    "RELEASED FROM “CONFIDENTIAL” STATUS:",
+    "CONFIDENTIAL WELLS PLUGGED OR PRODUCING:",
+    "PRODUCING WELLS COMPLETED:",
+    "SWD PERMIT:",
+
+    # add more when you discover them
+]
+PERMIT_PATTERN = re.compile(r"#\d+")
+pdf_path = Path(local_dl_folder) / permit_fn
+
+def parse_permits_by_category(pdf_path: str) -> dict[str, list[str]]:
+    grouped = defaultdict(list)
+    current_category = None
+
+    with pdfplumber.open(pdf_path) as pdf:
+        page = pdf.pages[0]                  # extend to multiple pages if needed
+        for raw_line in page.extract_text().splitlines():
+            line = raw_line.strip()
+
+            # check for a new category label
+            if any(line.startswith(label) for label in CATEGORY_LABELS):
+                current_category = next(label for label in CATEGORY_LABELS if line.startswith(label))
+                continue
+
+            if current_category:
+                permits = PERMIT_PATTERN.findall(line)
+                if permits:
+                    grouped[current_category].extend(permits)
+                # optionally store the entire line or other fields along with the permit id
+
+    return grouped
+
+
+
 
 # 2. Convert downloaded data to usable formats for analysis.
 # 3. Begin the process of extracting information from the usable data. 
@@ -82,6 +125,9 @@ def main():
         print("Permit Filename:", permit_fn)
         print("Download URL:", permit_report_dl_url)
         download_permit_pdf(permit_report_dl_url, local_dl_folder)
+        parse_permits_by_category(str(pdf_path))
+        grouped_permits = parse_permits_by_category(str(pdf_path))
+        print(grouped_permits)
         elapsed = time.perf_counter() - start
         print(f" Main Succeeded and the time elapsed: {elapsed:.3f} seconds")
     except Exception as e:
