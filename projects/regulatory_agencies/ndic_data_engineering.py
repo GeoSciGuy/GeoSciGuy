@@ -60,6 +60,8 @@ def download_permit_pdf(download_url, local_folder):
     except Exception as e:
         print(f"Failed to download PDF: {e}")
         return None
+    
+
 # 2. Convert downloaded data to usable formats for analysis.
 # 3. Begin the process of extracting information from the usable data. 
 # Helper FUnctions
