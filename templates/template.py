@@ -17,13 +17,14 @@ import datetime
 
 # Main Function
 def main():
-    start_time = time.perf_counter()
     try:
+        time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
+        time.start()
         print("Hello, World!")
     except Exception as e:
         print("An error occurred:", e)
     finally:
-        elapsed_time = time.perf_counter() - start_time
-        print(f"Execution completed in {elapsed_time:.3f} seconds.")
+        print("Execution completed.")
+        time.end()
 
 main()
